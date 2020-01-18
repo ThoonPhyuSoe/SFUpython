@@ -1,0 +1,53 @@
+Git.txt
+username- Thoonphyusoe
+email-pearlphyusoe@gmail.com
+password-Tps822002
+
+Step 1 :  Git Download
+Step 1 :  Git Installation
+Step 1 :  Github Account Creation
+Step 1 :  Git Reponsitory
+Step 1 :  A file to upload on gothub
+Step 1 :  Git commannd line
+
+cd Path - Go to Directory
+
+First time ( New Reponsitory)
+             git init
+             git add .
+             git config global user.email "useremail"
+             git config global user.name "username"
+
+             git vommiy -m "first commit"
+             git remote add orgin https://github.com/brainseeddeveloper/Sample.git
+             git push -u orgin master
+
+ (New reponsitory for new project)
+             git init
+             git add .
+             git config global user.email "useremail"
+             git config global user.name "username"
+
+             git vommiy -m "first commit"
+             git remote add orgin https://github.com/brainseeddeveloper/Sample.git
+             git push -u orgin master
+
+ (Old reponsitory for existing project)
+
+              git add.
+              git commit -m "second commit"
+              git push
+
+(exsiting project to other laptop)
+
+             git pull
+
+(other person project to own laptop)
+
+           git clone https://github.com/brainseeddeveloper/Sample.git
+
+
+
+
+
+
