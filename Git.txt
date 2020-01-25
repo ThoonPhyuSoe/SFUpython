@@ -15,8 +15,8 @@ cd Path - Go to Directory
 First time ( New Reponsitory)
              git init
              git add .
-             git config global user.email "useremail"
-             git config global user.name "username"
+             git config --global user.email "useremail"
+             git config --global user.name "username"
 
              git vommiy -m "first commit"
              git remote add orgin https://github.com/brainseeddeveloper/Sample.git
@@ -28,7 +28,7 @@ First time ( New Reponsitory)
              git config global user.email "useremail"
              git config global user.name "username"
 
-             git vommiy -m "first commit"
+             git commit -m "first commit"
              git remote add orgin https://github.com/brainseeddeveloper/Sample.git
              git push -u orgin master
 
