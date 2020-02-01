@@ -15,7 +15,7 @@ print("Hello World")
 
 int - integer - 1, 2, 3, ----> 308930 etc
 float -       - 1.0, 5.9, 6.0, 63.23, etc
-string -      - ''hello', "World" , "A", "B",
+string -      - 'hello', "World" , "A", "B",
 
 a = 1
 a (variable) = (assign) 1 (value
@@ -29,7 +29,7 @@ print (' don\'t ')
 print  ("doesn't")
 print ('"Yes"')
 print ("\"Yes,\", they said.")
-print ('"Isn't," they said')
+print ('"Isn\'t," they said')
 print ( '"Isn\'t, they said"')
 "'Hello World'"
 
@@ -42,9 +42,9 @@ division = 90 / 9
 power of 2 = 3 ** 2
 the remainder of the division = 10 % 3
 
-
+ 
 * or %
-5 * 3 + 2 % 3
+5 * 3 + 2 %
 
 5 * 3 + 3 % 4
 
@@ -56,3 +56,15 @@ the remainder of the division = 10 % 3
 
 8 * 9 / 4 * 5 % 3 -2
 
+
+>>> sale = 1500
+>>> tax = 5 / 100
+>>> total_tax = sale * tax
+>>> total_tax
+75.0
+>>> total_price = sale + total_tax
+>>> total_price
+1575.0
+>>> round(total_price)
+1575
+>>>
